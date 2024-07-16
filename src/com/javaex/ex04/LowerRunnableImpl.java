@@ -1,11 +1,11 @@
 package com.javaex.ex04;
 
-public class DigitImpl implements Runnable {
+public class LowerRunnableImpl implements Runnable {
 
 	@Override
 	public void run() {
-		for (int i = 0; i < 30; i++) {
-			System.out.println(i);
+		for (char ch = 'a'; ch < 'z'; ch++) {
+			System.out.println(ch);
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {

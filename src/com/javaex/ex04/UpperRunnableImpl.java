@@ -1,7 +1,7 @@
 package com.javaex.ex04;
 
-public class LowerImpl implements Runnable{
-	
+public class UpperRunnableImpl implements Runnable {
+
 	@Override
 	public void run() {
 		for (char ch = 'A'; ch < 'Z'; ch++) {
@@ -12,6 +12,7 @@ public class LowerImpl implements Runnable{
 				e.printStackTrace();
 			}
 		}
-		
+
 	}
+
 }

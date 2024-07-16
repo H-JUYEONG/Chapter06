@@ -1,10 +1,10 @@
 package com.javaex.ex04;
 
-public class UpperImpl implements Runnable {
-	
+public class DigitRunnableImpl implements Runnable {
+
 	@Override
 	public void run() {
-		for (double i = 0; i < 30; i++) {
+		for (int i = 0; i < 30; i++) {
 			System.out.println(i);
 			try {
 				Thread.sleep(1000);
@@ -12,7 +12,6 @@ public class UpperImpl implements Runnable {
 				e.printStackTrace();
 			}
 		}
-
 	}
 
 }
