@@ -2,6 +2,7 @@ package com.javaex.ex02;
 
 public class UpperThread extends Thread {
 
+	@Override
 	public void run() {
 		for (double i = 0; i < 30; i++) {
 			System.out.println(i);
