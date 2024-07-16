@@ -4,8 +4,8 @@ public class UpperThread extends Thread {
 
 	@Override
 	public void run() {
-		for (double i = 0; i < 30; i++) {
-			System.out.println(i);
+		for (char ch = 'A'; ch < 'Z'; ch++) {
+			System.out.println(ch);
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
